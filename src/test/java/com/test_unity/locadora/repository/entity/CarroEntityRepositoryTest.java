@@ -17,7 +17,7 @@ class CarroEntityRepositoryTest {
 
     @Test
     void deveSalvarUmCarro() {
-        CarroEntity carro = new CarroEntity(null, "sedan", 100);
+        CarroEntity carro = new CarroEntity(null, "sedan", 100, 2029);
 
         carroEntityRepository.save(carro);
 

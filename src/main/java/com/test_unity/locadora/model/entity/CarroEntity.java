@@ -17,5 +17,6 @@ public class CarroEntity {
     private Long id;
     private String modelo;
     private double valorDiaria;
+    private int ano;
 
 }
